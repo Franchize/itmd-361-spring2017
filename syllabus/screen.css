@@ -180,7 +180,7 @@ nav {
 }
 .nav li {
   float: left;
-  width: 25%;
+  width: 20%;
   list-style-type: none;
   padding-bottom: 0;
 }
@@ -195,6 +195,7 @@ nav {
 }
 
 #calendar #nav-cal a,
+#due_date #nav-due a, 
 #projects #nav-pro a,
 #policies #nav-pol a {
   color: #142736;
@@ -272,6 +273,50 @@ nav {
   margin-bottom: 1.2631578947em;
 }
 
+/* Table */
+table {
+	table-layout: fixed;
+	width: 80%;
+}
+table, th, td {
+	border: 1px solid #ddd;
+	padding: 0px 10px;
+}
+.tablehead {
+	background-color: #142736;
+	text-align: center;
+}
+.tabletitle {
+	border-left: none;
+}
+tr .firstrow {
+	border-right: none;
+	width: 70px;
+}
+tr .secondrow {
+	text-align: left;
+}
+td a {
+	font-weight: 700;
+	text-align: center;
+}
+td {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.redfont {
+	color: red;
+}
+#tablep {
+	width: 80%
+}
+.addeventstc {
+	margin: 10px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
 
 /* ========== State ========== */
 
